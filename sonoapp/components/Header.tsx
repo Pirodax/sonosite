@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <header style={{ padding: '20px', backgroundColor: '#f2f2f2' }}>
       <nav>
-        <ul style={{ display: 'flex', listStyle: 'none', gap: '15px', margin: 0, padding: 0 }}>
+        <ul style={{ display: 'flex', listStyle: 'none', gap: '150px', margin: 0, padding: 0, justifyContent: 'center' }}>
           <li>
             <Link href="/">Accueil</Link>
           </li>

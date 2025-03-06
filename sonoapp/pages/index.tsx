@@ -4,7 +4,8 @@ import Image from 'next/image';
 const Home: NextPage = () => {
   return (
     <div>
-      <h1>Bienvenue chez Olivier</h1>
+      
+      <h1  style={{ display: 'flex', listStyle: 'none', gap: '150px', margin: 0, padding: 0, justifyContent: 'center' }}>Bienvenue chez Olivier</h1>
       <p>Massage sonore & sonothérapie pour un bien-être optimal.</p>
       <Image  
       src= "/image_sono/image_olivier_massage.JPG"
